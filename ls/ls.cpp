@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     
     auto p = (argc > 1) ? argv[1] : fs::current_path();
     
-    #if have_optional == 0
+    #if have_windows_h == 0
         for (auto e : fs::directory_iterator{p})
         {
             if (!std::string(e.path().filename().native()).starts_with("."))
