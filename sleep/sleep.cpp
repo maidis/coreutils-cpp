@@ -24,7 +24,8 @@ int main(int argc, char *argv[])
     }
     else
     {
-        int number;
+        int number{};
+        int total{};
         for(int i = 1; i < argc; ++i)
         {
             std::string str = argv[i];
@@ -58,8 +59,10 @@ int main(int argc, char *argv[])
                 std::cout << "Try 'sleep --help' for more information.\n";
                 return 0;
             }
+            total = total + number;
         }
-        std::this_thread::sleep_for(std::chrono::seconds(number));
+        //std::cout << total << '\n'; // poor man's debug :)
+        std::this_thread::sleep_for(std::chrono::seconds(total));
     }
     return 0;
 }
