@@ -30,21 +30,21 @@ int main(int argc, char *argv[])
         {
             std::string str = argv[i];
             
-            if(auto pos = str.find_first_of('s'); str.ends_with('s') && pos == str.size() - 1)
+            if(auto pos = str.find_first_of('s'); str.size() != 1 && str.ends_with('s') && pos == str.size() - 1)
             {
                 std::from_chars(str.data(), str.data()+str.size()-1, number);
             }
-            else if(auto pos = str.find_first_of('m'); str.ends_with('m') && pos == str.size() - 1)
+            else if(auto pos = str.find_first_of('m'); str.size() != 1 && str.ends_with('m') && pos == str.size() - 1)
             {
                 std::from_chars(str.data(), str.data()+str.size()-1, number);
                 number = number * 60;
             }
-            else if(auto pos = str.find_first_of('h'); str.ends_with('h') && pos == str.size() - 1)
+            else if(auto pos = str.find_first_of('h'); str.size() != 1 && str.ends_with('h') && pos == str.size() - 1)
             {
                 std::from_chars(str.data(), str.data()+str.size()-1, number);
                 number = number * 60 * 60;
             }
-            else if(auto pos = str.find_first_of('d'); str.ends_with('d') && pos == str.size() - 1)
+            else if(auto pos = str.find_first_of('d'); str.size() != 1 && str.ends_with('d') && pos == str.size() - 1)
             {
                 std::from_chars(str.data(), str.data()+str.size()-1, number);
                 number = number * 60 * 60 * 24;
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
             }
             total = total + number;
         }
-        //std::cout << total << '\n'; // poor man's debug :)
+        std::cout << total << '\n'; // poor man's debug :)
         std::this_thread::sleep_for(std::chrono::seconds(total));
     }
     return 0;
