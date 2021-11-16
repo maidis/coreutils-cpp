@@ -1,6 +1,6 @@
 # coreutils-cpp
 
-[The GNU Core Utilities](https://www.gnu.org/software/coreutils/) are the basic file, shell and text manipulation utilities of the GNU operating system. These are the core utilities which are expected to exist on every operating system.
+[The GNU Core Utilities](https://www.gnu.org/software/coreutils/) are the basic file, shell and text manipulation utilities of the GNU operating system. These are the core utilities which are expected to exist on every operating system. [Mirror of coreutils' repository](https://github.com/coreutils/coreutils).
 
 [coreutils-cpp](https://github.com/maidis/coreutils-cpp) is a project that aims to reimplement GNU Core Utilities in Modern C++.
 
@@ -96,3 +96,12 @@
 |who|Displays a list of users who are currently logged into the computer|||
 |whoami|Prints the effective username of the current user when invoked|||
 |yes|Outputs an affirmative response, or a user-defined string of text, continuously until killed|||
+
+There are dozens of similar projects written in C++ or other programming languages:
+
+- [uutils/coreutils](https://github.com/uutils/coreutils) (Rust)
+- [redox-os/coreutils](https://github.com/redox-os/coreutils) (Rust)
+- [ericlagergren/go-coreutils](https://github.com/ericlagergren/go-coreutils) (Go)
+- [vlang/coreutils](https://github.com/vlang/coreutils) (V)
+- [dct2012/coreutils](https://github.com/dct2012/coreutils) (C++)
+- [junaire/jutils](https://github.com/junaire/jutils) (C++)
