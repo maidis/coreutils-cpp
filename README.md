@@ -103,4 +103,4 @@
 |wc||||
 |who||||
 |whoami||||
-|yes||||
+|yes|Outputs an affirmative response, or a user-defined string of text, continuously until killed|||
