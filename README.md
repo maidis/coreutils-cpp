@@ -94,7 +94,7 @@
 |uptime|Tells how long the system has been running|||
 |wc|Count the number of lines, words, and bytes in the files or standard input|||
 |who|Displays a list of users who are currently logged into the computer|||
-|whoami|Prints the effective username of the current user when invoked|||
+|[whoami](https://github.com/maidis/coreutils-cpp/tree/main/whoami)|Prints the effective username of the current user when invoked|||
 |[yes](https://github.com/maidis/coreutils-cpp/tree/main/yes)|Outputs an affirmative response, or a user-defined string of text, continuously until killed|||
 
 There are dozens of similar projects written in C++ or other programming languages:
