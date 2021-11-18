@@ -63,7 +63,7 @@
 |printenv|Prints environment variables|||
 |printf|Formats and prints data|||
 |ptx|Rroduces a permuted index of file contents|||
-|pwd|Prints the current working directory|||
+|[pwd](https://github.com/maidis/coreutils-cpp/tree/main/pwd)|Prints the current working directory|||
 |readlink|Displays value of a symbolic link|||
 |realpath|Prints the resolved path|||
 |rm|Removes files or directories|||
