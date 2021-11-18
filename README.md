@@ -105,3 +105,4 @@ There are dozens of similar projects written in C++ or other programming languag
 - [vlang/coreutils](https://github.com/vlang/coreutils) (V)
 - [dct2012/coreutils](https://github.com/dct2012/coreutils) (C++)
 - [junaire/jutils](https://github.com/junaire/jutils) (C++)
+- [dazmaks/linuxcommands](https://github.com/dazmaks/linuxcommands) (C#)
