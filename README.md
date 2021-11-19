@@ -53,7 +53,7 @@
 |nice|Modifies scheduling priority|||
 |nl|Numbers the lines in a file|||
 |nohup|Allows a command to continue running after logging out|||
-|nproc|Prints the number of processing units available|||
+|[nproc](https://github.com/maidis/coreutils-cpp/tree/main/nproc)|Prints the number of processing units available|||
 |numfmt|Converts the numbers to/from human readable format|||
 |od|Displays content of a file in different human-readable formats like hexadecimal, octal and ASCII characters|||
 |paste|Joins files horizontally|||
