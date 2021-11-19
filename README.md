@@ -22,7 +22,7 @@
 |date|Displays the system date and time|||
 |dd|Duplicates disk or data|||
 |df|Displays the amount of available disk space for file systems|||
-|dirname|Strips non-directory suffix from file name|||
+|[dirname](https://github.com/maidis/coreutils-cpp/tree/main/dirname)|Strips non-directory suffix from file name|||
 |du|Shows disk usage on file systems|||
 |echo|Displays a specified line of text|||
 |env|Displays and modifies environment variables|||
